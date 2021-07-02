@@ -1,0 +1,620 @@
+
+@media (max-width:1193px) {
+    /* ---------------- Header section ------------------------  */
+    .shopp, .ind {
+        font-size: 3vw;
+        font-family: 'japokki-regular';
+    }
+
+
+    .search-image input {
+        width: 35vw;
+        height: 3vh;
+        margin-left: 2rem;
+        border: 1px solid #E5E5E5;
+        outline: none;
+        font-size: 1.2vw;
+        color: #CBCBCB;
+        padding-left: 4vw;
+    }
+
+
+    .custom_nav a {
+        font-size: 0.8vw;
+    }
+
+    .search-image img {
+        width: 2vw;
+        left: 9%;
+    }
+
+    .all_content span {
+        font-size: 2vw;
+    }
+
+    .all_content img {
+        width: 4vw;
+        height: 2.5vh;
+    }
+
+    .eoss-text {
+        font-size: 2vw;
+
+    }
+
+    .eoss-text span {
+        font-size: 1.8vw;
+    }
+
+    .input_box-EOSS input{
+        width: 20vw;
+        height: 4vh;
+        font-size: 1.5vw;
+    }
+
+    .popular-text {
+        font-size: 2vw;
+        position: absolute;
+        left: 30%;
+        top: 14%;
+    }
+
+    .card-title {
+        font-size:1.8vw;
+    }
+
+    .card-text {
+        font-size: 1.5vw;
+    }
+
+    .rate-button button {
+        width: 10vw;
+        height: 3vh;
+        font-size: 1.5vw;
+        
+    }
+
+    .footer-heading-line {
+        font-size: 1.5vw;
+        font-weight: 700;
+    }
+
+
+
+    .footer-text-content {
+        font-size: 1vw;
+        font-weight: 500;
+        width: 16vw;
+    }
+
+    .about-us-footer, .QUICK-LINKS, .CUSTOMER-CARE {
+        width: 12vw;
+    }
+
+    .contact-us {
+        width: 20vw;
+    }
+
+    .footer-search-buttons button {
+        height: 3vh;
+        width: 8vw;
+        font-size: 1.2vw;
+
+    }
+
+    .footer-social-media img {
+        width: 4vw;
+        height: 2vh;
+        padding-right: 0px;
+    }
+
+    .footer-search-buttons input {
+        font-size: 1vw;
+       
+    }
+
+    .logos img {
+        margin-top: 2rem;
+        width: 20vw;
+        height: 4vh;
+        /* border: 2px solid black; */
+        border-radius: 5px;
+    }
+
+.customer-designer-flight img{
+    width: 5vw;
+}
+
+.customer-support-text p {
+    font-size: 1.5vw;
+    
+}
+
+.payment-content h4 {
+    font-size: 1.5vw;
+}
+
+.payment-content p {
+    font-size: 1vw;
+  
+}
+
+.payment-search-buttons input {
+    font-size: 1.5vw;  
+}
+
+.payment-search-buttons button {
+   
+    font-size: 1vw;
+}
+
+.table-content h2 {
+    font-size: 1.5vw;
+}
+
+.table-content p {
+    font-size: 1.5vw;
+}
+
+/* --------------------- filter-section ------------------------  */
+
+.home-Listing-Eoss span {
+    
+    font-size: 1.5vw;
+}
+
+.box-content-sizing span {
+    margin-right: 7px;
+    width: 2.5vw;
+    height: 2.5vw;
+    font-size: 1vw;
+}
+
+.color-category {
+    width: 2.25vw;
+    height: 2.5vh;
+
+}
+
+.color-category .checkmark {
+    position: absolute;
+    top: 6px;
+    left: 3px;
+    height: 2vh;
+    width: 1vw;
+
+}
+
+
+
+
+
+.box-content-sizing div {
+    width: 3vw;
+    height: 3.4vh;
+    padding-top: 10px;
+    font-size: 1vw;
+}
+
+.ready-to-ship{
+    width: 20vw;
+}
+
+.ready-to-ship p{
+font-size: 1.5vw;
+}
+
+.category-items h2 {
+    font-size:1.5vw;
+   
+}
+
+.Category-Search {
+    font-size: 1.2vw;
+}
+
+.Categories p {
+    font-size: 1.2vw;
+
+}
+
+.link-red-color {
+    color: red;
+    font-size: 1vw;
+}
+
+.white-color div, .gold-color div, .black-color div, .blush-pink-color div, .powder-blue-color div, .red-color div, .green-color div, .grey-color div {
+    /* border: 2px solid red; */
+    width: 3vw;
+    height: 3vh;
+    margin-right: 5px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+    .black_portion_text,.black_portion_more_text {
+        /* width: 90vw; */
+        font-size: 2vw;
+        
+        /* border: 1px solid greenyellow; */
+    }
+
+
+
+
+    .custom_header_section{
+        width: 100%;
+        height:8vh;
+        /* border: 2px solid black; */
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        background-color: white;
+        
+    }
+
+    .shopp, .ind {
+        font-size:4.5vw;
+    }
+
+    .search-image input {
+        display: none;
+    }
+
+.all_content{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+.all_content span {
+    font-size: 3vw;
+    padding-right: 10px;
+}
+
+.all_content img {
+    width: 8vw;
+    height: 3vh;
+}
+
+.header_section {
+    padding-left: 10px;
+    padding-right: 1rem;
+    /* z-index: 2; */
+    /* border: 2px solid black; */
+}
+
+.mobile-nav-icon{
+    display: block;
+}
+
+/* -------------------------------- Nav-bar --------------------------------------   */
+.custom_nav{
+    padding-top: 10px;
+    padding-left: 10px;
+    display: none;
+    width: 30vw;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    box-shadow: 1px 2px 18px #888888e3;
+    z-index: 2;
+}
+
+.custom_nav a{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 3vw;
+}
+
+.link-red-color{
+    font-size: 2.5vw;
+}
+
+.hero_section {
+    margin-top: 12vh;
+    padding: 0;
+}
+
+
+
+.input_box-EOSS {
+    border: 1px solid #C2C2C2;
+    width: 25vw;
+    height: 3.4vh;
+    font-size: 2vw;
+    padding-left: 10px;
+    margin-top: 1rem;
+}
+
+.popular_text_content{
+    width: 15vw;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+
+
+.popular-text{
+    font-size: 2.5vw;
+    position: absolute;
+    top: 35%;
+    margin-left: 10px;
+}
+
+.both-section{
+    padding:0 10px;
+}
+
+
+
+
+
+
+/* -----------------------filter-seciton---------------------  */
+
+.filter-mobile-section{
+    display: block;
+    padding-top: 10px;
+    /* border: 2px solid red; */
+}
+
+.filter-section{
+    padding-top: 4rem;
+    padding-left: 10px;
+    z-index: 1;
+    position: absolute;
+    top: 0; 
+    left: 10%;
+    width: 50vw;
+    height: 70vh;
+    background-color: white;
+    overflow-y: auto;
+    
+    /* border: 2px solid black; */
+}
+
+.filter-section::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+.category-items {
+    width: 40vw;
+}
+
+
+.category-items h2{
+    font-size: 3vw;
+}
+
+.Categories p {
+    height: 4vh;
+    font-size: 2.5vw;
+}
+
+.Categories p input{
+    margin-top: 15px;
+}
+
+.box-content-sizing div {
+    padding-top: 8px;
+    width: 5vw;
+    height: 3vh;
+    font-size: 2vw;
+}
+
+.ready-to-ship {
+    width: 45vw;
+}
+
+.ready-to-ship p{
+    /* border: 2px solid red; */
+    width: 40vw;
+font-size: 3vw;
+}
+
+.Category-Search{
+    width: 30vw;
+    font-size: 3vw;
+    margin-bottom: 1rem;
+} 
+
+
+.filter-mobile-section span{
+    padding-right: 10px;
+    color: black;
+    font-size: 4vw;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.filter-text img{
+    width: 5vw;
+}
+
+div.Eoss-search {
+    background-color: white;
+    position: sticky;
+    top: 10vh;
+    z-index: 1;
+}
+
+.white-color div, .gold-color div, .black-color div, .blush-pink-color div, .powder-blue-color div, .red-color div, .green-color div, .grey-color div{
+    width: 5vw;
+    height: 3vh;
+    margin-bottom: 10px;
+}
+
+.price-input{
+    justify-content: space-between !important;
+}
+
+.min-price input, .max-price input{
+    width: 15vw;
+}
+
+.line .straight-line{
+    width: 30vw;
+}
+
+.circle p{
+    width: 4vw;
+}
+
+
+/* ---------------------------------------------------filter-section end--------------  */
+
+.search-image img {
+    display: none;
+}
+
+.hero_section img{
+    height: 20vh;
+}
+
+.filter-section{
+    display: none;
+}
+
+.eoss-text{
+    font-size: 3vw;
+    margin-top: 1rem;
+}
+
+.eoss-text span{
+    font-size: 2vw;
+    margin-top: 1rem;
+}
+
+.input_box-EOSS input{
+    margin-top: 1rem;
+    width: 30vw;
+    font-size: 2vw;
+}
+
+.body-image-content {
+    padding: 0 5px;
+    width: 100vw;
+    /* border: 2px solid red; */
+}
+
+
+
+.card-title {
+    font-size: 2.5vw;
+}
+
+.card-text{
+    font-size: 2vw;
+}
+
+.rate-button button {
+    width: 15vw;
+    height: 3vh;
+    font-size: 2vw;
+}
+
+.rate-button{
+    padding-right: 1rem;
+}
+
+/* ---------------------------- footer-section------------------------ */
+footer{
+    display: none;
+}
+
+
+.table-content{
+    display: none;
+}
+
+.customer-support-text p {
+    margin-left: 5px;
+    margin-bottom: 2px;
+    width: 15vw;
+    font-size: 2vw;
+    
+}
+
+.customer-designer-flight img{
+    width: 8vw;
+}
+
+.payment-content h4{
+    font-size: 2vw;
+}
+
+.payment-content p{
+    font-size: 1.6vw;
+}
+
+.payment-search-buttons input{
+    width: 30vw;
+    font-size: 2vw;
+}
+
+.payment-search-buttons button {
+    width: 12vw;
+    font-size: 2vw;
+}
+}
+
+
+@media (max-width:500px) {
+    .popular-text{
+        top: 45%;
+    }
+
+    div.Eoss-search{
+    top: 10vh;
+    }
+
+    .input_box-EOSS {
+
+        width: 35vw;
+        height: 3vh;
+       
+    }
+
+    .popular_text_content {
+        width: 20vw;
+        font-size: 2vw;
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

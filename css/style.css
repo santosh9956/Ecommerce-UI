@@ -1,0 +1,1011 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'japokki-regular';
+    src: url('/jaapokki-cufonfonts/Jaapokki-Regular.otf');
+}
+
+
+.header_black_portion{
+    width: 100%;
+    height: 24px;
+    /* border: 2px solid red; */
+    background-color: black;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+
+.black_portion_text{
+    width: 90vw;
+    font-size: 0.67vw;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: white;
+    /* border: 1px solid greenyellow; */
+}
+
+.black_header_text_content{
+    width:100vw;
+    /* border: 1px solid white; */
+    float: right;
+}
+
+
+
+.black_portion_more_text{
+    color: white;
+    font-size: 0.67vw;
+    font-family: 'Poppins';
+    font-weight: 500;
+    /* border: 2px solid red; */
+}
+
+
+
+
+
+body{
+    /* border: 2px solid red; */
+    background-color:#FAFAFA;
+    width: 100%;
+    height: 100vh;
+}
+
+/* ---------------------------------- Header-section -------------------------------------  */
+
+.custom_header_section{
+    width: 100%;
+    height: 10vh;
+    /* border: 2px solid black; */
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow:0px 2px 6px #0000001A;
+}
+
+
+
+.header_section{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+   
+  
+  
+
+}
+
+.header_logo{
+    height: 95px;
+    width: 10vw;
+    /* border: 2px solid black; */
+   
+}
+
+.shopp, .ind{
+    font-size: 1.5vw;
+    font-family: 'japokki-regular';
+}
+
+.shopp{
+    color: #212121;
+}
+
+.ind{   
+    color: #E83647;
+    /* border-bottom: 2px solid #E83647; */
+}
+
+.ind::after{
+    position: absolute;
+    content:" ";
+    width: 100%;
+    height: 0.1rem;
+    right: 10%;
+    bottom: 0%;
+    background-color:#E83647;
+}
+
+.header-content{
+    /* border: 2px solid rgb(12, 255, 12); */
+    width: 100vw;  
+    height: 11vh;
+}
+
+
+.badge{
+    position: absolute;
+    bottom: 90%;
+    right: 15%;
+    width: 1.8vw;
+    height: 0.9vw;
+    font-size: 0.6vw;
+    font-family: 'Poppins';
+    font-weight: 500;
+    background-color: #D70202;
+}
+
+
+.all_content span{
+    font-size: 13px;
+    color: #979797;
+    padding:0 5px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.all_content img{
+    /* padding:0 10px; */
+    padding-left: 1rem;
+}
+
+
+
+/* ----------------------------------------- Search box ------------------------------   */
+
+
+
+.search-image{
+    /* border: 2px solid black; */
+    width: 40vw;
+    margin-left: 4rem;
+
+}
+
+.search-image img{
+    position: absolute;
+    left: 1vw;    
+}
+
+.search-image input{
+    width: 35vw;
+    height: 1.77vw;
+    /* margin-left:2rem; */
+    border: 1px solid #E5E5E5;
+    outline: none;
+    font-size: 0.67vw;
+    color: #CBCBCB;
+    padding-left: 3vw;
+}
+
+/* ---------------------------------- Menu-items -------------------------  */
+
+.header-content-navbar{
+    /* border: 2px solid red; */
+    width: 80%;
+}
+
+.header-content-navbar .header-content , .header-content-navbar .main-nav-mobile{
+ border: 2px solid black;
+}
+
+.main-nav-mobile{
+    /* border: 2px solid black; */
+    /* width: 70vw; */
+    height: 2vh;
+}
+
+.custom_nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55vw;
+    /* border: 2px solid red; */
+}
+
+
+.custom_nav a{
+    font-size: 0.68vw;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: black !important;
+}
+
+.mobile-nav-icon{
+    display: none;
+}
+
+.custom_navbar_items{
+    /* border:2px solid red ; */
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+
+.link-red-color{
+    color: red;
+    font-size: 0.8vw;
+}
+
+
+/* ------------------- Hero - Section --------------------------------------------    */
+
+.hero_section{
+    margin-top: 15vh;
+    padding: 0;
+}
+
+
+.hero_section img{
+    width: 100%;
+    height: 33.33vh;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+/* ---------------------------- body-section --------------------------------------   */
+
+.both-section{
+    color: #FAFAFA;
+    padding-right:0;
+    padding-left: 0;
+}
+
+.filter-section{
+    width: 15.62vw;
+    /* border: 2px solid black; */
+}
+
+.filter-mobile-section{
+    display: none;
+}
+
+
+
+
+.home-Listing-Eoss span{
+    color: #797979;
+    font-size: 0.62vw;
+    font-family: 'Poppins';
+    font-weight: 400;
+    
+}
+
+
+.box-content-sizing div{
+    width: 1.78vw;
+    height: 3.4vh;
+    border: 1px solid #707070;
+    margin-left:5px;
+    color: black;
+    font-size: 1vw;
+}
+
+.box-content-sizing input[type="radio"]{
+    display:none;
+  }
+
+
+
+  .box-content-sizing span {
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    width: 1.5vw;
+    height: 1.5vw;
+    color:black;
+    cursor:pointer;
+    font-weight:400;
+    font-family: 'Poppins';
+    transition:all .2s ease;
+    font-size: 0.83vw;
+  }
+  
+  .box-content-sizing  input {
+    display:none;  
+  }
+  
+  input:checked + .san {
+    border: 2px solid rgb(8, 0, 0);
+    /* width:2vw;
+    height: 2vw; */
+  }
+  
+  input:checked + span{
+    border: 2px solid rgb(8, 0, 0);
+    /* width:2vw;
+    height: 2vw; */
+  }
+
+
+
+
+/* ----------------- checkbox category items --------------------------- */
+
+
+    .category-items {
+        margin-bottom: 1rem;
+        width: 15vw;
+        height: auto;
+        /* height: 40.37vh; */
+        /* border: 2px solid red; */
+    }
+
+    /* .ready-to-ship input{
+        width: 10vw;
+        border: 2px solid red;
+    } */
+
+.input_checkbox{
+    /* border: 2px solid red; */
+    width: 16px;
+    height: 16px;
+}
+
+
+.ready-to-ship{
+    /* border: 2px solid red; */
+    width: 10vw;
+    color:#212121;
+    font-size: 0.68vw;
+    padding:2rem 0;
+}
+
+.category-items h2{
+    font-size: 0.95vw;
+    font-family: 'Poppins';
+    font-weight: 600;
+    /* margin-top: 2rem; */
+    color: #000000;
+
+}
+
+.Category-Search{
+    outline: none;
+    /* margin-left: 5px; */
+    width: 14vw;
+    height: 3.24vh;
+    font-size: 0.64vw;
+    font-family: 'Poppins';
+    font-weight: 400;
+    padding-left: 5px;
+    border: 1px solid #AAAAAA;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.Categories input{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.Categories div{
+    /* border: 2px solid rgb(104, 94, 94); */
+    height: 3.5vh;
+}
+
+.Categories p{
+    font-size: 0.67vw;
+    margin-top: 5px;
+}
+
+.See_all a:link{
+    text-decoration: none;
+}
+
+.See_all a:hover{
+    color: red;
+}
+
+
+
+/* ---------------------- gender -------------------------------   */
+
+.Gender-items, .custom_color_category{
+    height:auto;
+    /* border: 2px solid black; */
+}
+
+/* ------------------------------- color ---------------------------   */
+/* 
+.white-color div , .gold-color div, .black-color div , .blush-pink-color div, .powder-blue-color div,
+.red-color div, .green-color div, .grey-color div{
+    border: 2px solid red;
+    width: 1vw;
+    height: 2vh;
+    margin-right: 5px;
+}
+
+.white-color div{
+    background-color: white;
+}
+
+.gold-color div{
+    background-color:#FFD703;
+}
+.black-color div{
+    background-color: black;
+}
+.blush-pink-color div{
+    background-color: #FFB7DE;
+}
+.powder-blue-color div{
+    background-color: #FFB7DE;
+}
+.red-color div{
+    background-color:red;
+}
+.green-color div{
+    background-color: #4E8B06;
+}
+.grey-color div{
+    background-color: #808080;
+} */
+
+
+.color-category {
+    display: block;
+    position: relative;
+    width: 1.25vw;
+    height: 2.5vh;
+    margin-right: 10px;
+    /* padding-left: 35px;
+    margin-bottom: 12px; */
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* border: 2px solid red; */
+    border-radius: 2px;
+  }
+
+/* ---------------------- giving color    --------------------- */
+
+.black-color{
+    background-color: black;
+}
+
+.white-color{
+    background-color: white;
+}
+
+.gold-color{
+    background-color: #FFD703;
+}
+
+.blush-pink-color{
+    background-color:#FFB7DE;
+}
+
+.powder-blue-color{
+    background-color: #65DDEF;
+}
+
+.red-color{
+    background-color: #FF0A00;
+}
+
+.green-color{
+    background-color: #4E8B06;
+}
+
+.grey-color{
+    background-color: #808080;
+}
+
+.color-category .black-color{
+    background-color: black;
+}
+
+.color-category .gold-color{
+    background-color: #FFD703;}
+
+.color-category .blush-pink-color{
+    background-color: #FFB7DE;
+}
+
+.color-category .powder-blue-color{
+    background-color: #65DDEF;
+}
+
+.color-category .red-color{
+    background-color: #FF0A00;
+}
+
+.color-category .green-color{
+    background-color: #4E8B06;
+}
+
+.color-category .grey-color{
+    background-color: #808080;
+}
+
+  .color-category input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+
+  .color-category  .checkmark {
+      /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2vh;
+    width: 1vw;
+    /* background-color: black; */
+    border: none;
+  }
+
+/* On mouse-over, add a grey background color */
+/* .color-category:hover input ~ .checkmark {
+    transform: scale(1.2);
+  } */
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.color-category .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+
+/* Show the checkmark when checked */
+.color-category input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+
+/* Style the checkmark/indicator */
+.color-category .checkmark:after {
+    left: 8px;
+    top: 2px;
+    width: 4px;
+    height: 12px;
+    border:1px solid rgb(222, 220, 231);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.color-category p{
+    padding-top: 0;
+    margin-top: 1px;
+}
+
+/* ---------------------- Pricing ------------------------  */
+
+.pricing{
+    padding-left: 10px;
+}
+
+.price-input{
+    /* border: 2px solid red; */
+    padding-right:10px;
+}
+
+.min-price input, .max-price input{
+    width: 5.46vw;
+    outline: none;
+    margin-bottom: 1rem;
+    border:1px solid #CCCCCC;
+}
+
+.min-price div, .max-price div{
+    font-size: 0.83vw;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+
+
+
+.min-price span, .max-price span{
+    color: black;
+    margin-left: -5px;
+    font-family: 'Poppins';
+    width: 7.4px;
+    height: 12px;
+    color: #AAAAAA;
+}
+
+
+.line-input{
+    position: relative;
+    width: 90%;
+    height: 40px;
+    /* margin-top: 30px; */
+}
+.line-input input[type="range"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    outline: none;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+.slider-track{
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+.line-input input[type="range"]::-webkit-slider-runnable-track{
+    -webkit-appearance: none;
+    height: 5px;
+}
+
+.line-input input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 19px;
+    width: 19px;
+    background-color: #E83647;
+    cursor: pointer;
+    margin-top: -7px;
+    pointer-events: auto;
+    border-radius: 50%;
+}
+
+.line-input input[type="range"]:active::-webkit-slider-thumb{
+    background-color: #ffffff;
+    border: 3px solid #E83647;
+}
+
+
+/* ---------------------  EOSS-FIRST-LINE---------   */
+
+.body-image-content{
+    width: 84.33vw;
+    /* border:2px solid blue; */
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.Eoss-search{
+    border-bottom:2px solid black;
+    height: 6vh;
+    margin-bottom: 1rem;
+}
+
+.eoss-text{
+    font-size: 1.2vw;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: black;
+}
+
+.eoss-text span{
+    font-size: 0.67vw;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.input_box-EOSS{
+    border: 1px solid #C2C2C2;
+    width: 11.67vw;
+    height: 3.4vh;
+    font-size: 0.6vw;
+    padding-left: 10px;
+}
+
+.popular_text_content{
+    width: 8vw;
+    font-size: 0.7vw;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+
+
+/* ----------------------------- body-section- image-content----- -------  */
+/* .custom_card img{
+    height: 50vh;
+    object-fit:cover;
+    object-position: top;
+} */
+
+
+
+.card{
+    border: none !important;
+    background-color:#FAFAFA ;
+}
+
+.card-title{
+    padding-top: 5px;
+    color: black;
+    font-size:0.8vw;
+    font-family:'Poppins';
+    font-weight: 600;
+}
+
+.card-text{
+    color: #797979;
+    font-size: 0.67vw;
+    font-family:'Poppins';
+    font-weight: 500;
+}
+
+.rate-button button{
+    width: 4vw;
+    height: 3vh;
+    background-color: #E83647;
+    font-size: 0.67vw;
+    font-family:'Poppins';
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius:4px;
+}
+
+/* ---------------------------------------- footer-section -------------------   */
+
+.footer-section{
+    padding: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: #FAFAFA;
+    /* border: 2px solid black; */
+}
+
+
+.about-us-footer , .QUICK-LINKS , .CUSTOMER-CARE , .contact-us ,.footer-download-app{
+    height: 45vh;
+    /* width: 20vw; */
+    /* border: 2px solid red; */
+}
+
+.about-us-footer , .QUICK-LINKS,.CUSTOMER-CARE {
+    width: 10vw;
+}
+
+.contact-us{
+    width: 15vw;
+}
+
+.footer-download-app{
+    width: 16vw;
+}
+
+
+.footer-heading-line ,.footer-text-content{
+    font-family: 'Poppins';
+    color: black;
+}
+
+.footer-heading-line{
+    font-size: 0.9vw;
+    font-weight: 700;
+}
+
+.footer-text-content{
+    font-size: 0.67vw;
+    font-weight: 500;
+    width: 16vw;
+    margin-bottom: 10px;
+}
+
+.footer-text-content a{
+    text-decoration: none;
+    color: #212121;
+}
+
+
+.footer-social-media img{
+    width: 1.5vw;
+    height: 2vh;
+    padding-right:10px;
+}
+
+.radio-buttons{
+    width: 10vw;
+    margin-bottom: 2rem;
+    /* border: 2px solid red; */
+}
+
+.radio-buttons span{
+    font-size: 0.67vw;
+    padding-right: 10px;
+
+}
+
+.footer-search-buttons input{
+    padding-left: 10px;
+    width: 10.3vw;
+    height: 3.5vh;
+    font-size: 0.56vw;
+    outline: none;
+    border: 1px solid #B3B3B3;
+}
+
+.footer-search-buttons button{
+    height: 3.5vh;
+    width:6vw;
+    font-size: 0.56vw;
+    background-color: black;
+    color: white;
+    margin-left:-10px;
+}
+
+/* --------------------------- Customer-support ----------------------- */
+
+.customer-support{
+    background-color: #FAFAFA;
+    height: 14.6vh;
+    border-top:1px solid #FAFAFA;
+    border-bottom:1px solid #FAFAFA;
+}
+
+.logos img{
+    margin-top: 2rem;
+    width: 15vw;
+    height: 5vh;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+
+.customer-support-text p{
+    margin-left: 5px;
+    margin-bottom: 2px;
+    width: 9vw;
+    font-size: 0.67vw;
+    font-family: 'Poppins';
+    color: black;
+}
+
+/* ------------------------------------ payment setting ---------------------  */
+.payment-method{
+    height: 15vh;
+    background-color: #FAFAFA;
+}
+
+.payment-icons{
+    width: 25vw;
+}
+
+.payment-icons img{
+    margin: 0 5px;
+}
+
+
+.payment-content{
+    width: 50vw;
+    /* border: 2px solid red; */
+    padding-top: 1rem;
+}
+
+.payment-content p{
+    font-size: 0.55vw;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.payment-content h4{
+    font-size: 1.15vw;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.payment-search-buttons input{
+    outline: none;
+    width: 25vw;
+    height: 3.2vh;
+    border: 1px solid #CCCCCC;
+    font-size: 0.55vw;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.payment-search-buttons button{
+    background-color: black;
+    color: white;
+    width: 6vw;
+    height: 3.2vh;
+    font-size: 0.65vw;
+    font-weight: 600;
+}
+
+/* ---------------------------- table-content ----------------------  */
+.table-content{
+    /* padding-bottom: 1rem; */
+    background-color: white;
+}
+
+.table-content h2{
+    font-size: 0.65vw;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.text-table{
+    font-size: 0.67vw;
+    font-family: 'Poppins';
+    font-family: 500;
+}
+
+
+
+table{
+    margin-bottom: 2rem;
+    border-collapse:unset;
+}
+
+.table-content table, th ,td{
+    border: 1px solid black;
+}
+
+.table-content p{
+    font-family: 'Poppins';
+    font-size: 0.59vw;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+/* footer-radio -button color --------------------  */
+
+.checkmark {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border: 1px solid #E83647;
+    border-radius: 50%;
+  }
+
+.first-label input{
+    display: none;
+}
+
+.first-label input:checked ~ .checkmark {
+    border:1px solid #E83647;
+  }
+
+
+  /* .first-label:hover input ~ .checkmark {
+    background-color: #ccc;
+  } */
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+
+  .first-label input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .first-label .checkmark:after {
+   top: 4px;
+   left: 4px;
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background: #E83647;
+   
+}
+
